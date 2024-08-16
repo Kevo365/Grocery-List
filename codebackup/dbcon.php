@@ -1,9 +1,9 @@
 <?php
 
 define("HOSTNAME", "localhost");
-define("USERNAME", "coramm");
-define("PASSWORD", "3BfUo8gLjMd9");
-define("DATABASE", "coramm_grocery");
+define("USERNAME", "root"); 
+define("PASSWORD", ""); 
+define("DATABASE", "product");
 
 $connection = mysqli_connect(HOSTNAME,USERNAME,PASSWORD,DATABASE);
 
